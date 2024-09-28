@@ -3,7 +3,7 @@ const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 const router = express.Router();
 
-const url = 'mongodb+srv://something:something@cluster0-o4uez.mongodb.net/locations?retryWrites=true&w=majority';
+const url = '???';
 const client = new MongoClient(url);
 const localStorage = {
     locations: []
